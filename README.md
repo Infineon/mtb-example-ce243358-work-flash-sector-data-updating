@@ -4,7 +4,7 @@ This code example demonstrates the use of the Flash PDL driver to perform basic 
 
 [View this README on GitHub.](https://github.com/Infineon/mtb-example-ce243358-work-flash-sector-data-updating)
 
-[Provide feedback on this code example.](https://yourvoice.infineon.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyNDMzNTgiLCJTcGVjIE51bWJlciI6IjAwMi00MzM1OCIsIkRvYyBUaXRsZSI6IlBETDogV29yayBmbGFzaCBzZWN0b3IgZGF0YSB1cGRhdGluZyIsInJpZCI6ImdvLnNoaW1hZGFAaW5maW5lb24uY29tIiwiRG9jIHZlcnNpb24iOiIxLjAuMCIsIkRvYyBMYW5ndWFnZSI6IkVuZ2xpc2giLCJEb2MgRGl2aXNpb24iOiJNQ0QiLCJEb2MgQlUiOiJBVVRPIiwiRG9jIEZhbWlseSI6IkFVVE8gTUNVIn0=)
+[Provide feedback on this code example.](https://yourvoice.infineon.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyNDMzNTgiLCJTcGVjIE51bWJlciI6IjAwMi00MzM1OCIsIkRvYyBUaXRsZSI6IlBETDogV29yayBmbGFzaCBzZWN0b3IgZGF0YSB1cGRhdGluZyIsInJpZCI6ImdvLnNoaW1hZGFAaW5maW5lb24uY29tIiwiRG9jIHZlcnNpb24iOiIxLjEuMCIsIkRvYyBMYW5ndWFnZSI6IkVuZ2xpc2giLCJEb2MgRGl2aXNpb24iOiJNQ0QiLCJEb2MgQlUiOiJBVVRPIiwiRG9jIEZhbWlseSI6IkFVVE8gTUNVIn0=)
 
 
 ## Requirements
@@ -29,7 +29,7 @@ This code example demonstrates the use of the Flash PDL driver to perform basic 
 - [TRAVEO&trade; T2G Cluster 4M Lite Kit](https://www.infineon.com/evaluation-board/KIT-T2G-C-2D-4M-LITE) (`KIT_T2G_C-2D-4M_LITE`)
 - [TRAVEO&trade; T2G Body high Lite Kit](https://www.infineon.com/evaluation-board/KIT-T2G-B-H-LITE) (`KIT_T2G-B-H_LITE`)
 - [TRAVEO&trade; T2G Body high Evaluation Kit](https://www.infineon.com/evaluation-board/KIT-T2G-B-H-EVK) (`KIT_T2G-B-H_EVK`)
-- [TRAVEO&trade; T2G Body high 16M Evaluation Kit](https://www.infineon.com/design-resources/finder-selection-tools/evaluation-board) (`KIT_T2G_B-H-16M_LITE`)
+- [TRAVEO&trade; T2G Body high 16M Evaluation Kit](https://www.infineon.com/evaluation-board/KIT-T2G-B-H-16M-LITE) (`KIT_T2G_B-H-16M_LITE`)
 
 
 ## Hardware setup
@@ -286,6 +286,7 @@ Document title: *CE243358 – PDL: Work flash sector data updating*
 | Version | Description of change |
 | ------- | --------------------- |
 | 1.0.0   | New code example      |
+| 1.1.0   | Updated makefile      |
 <br>
 
 

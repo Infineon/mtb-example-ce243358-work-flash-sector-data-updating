@@ -101,7 +101,7 @@ SOURCES=
 INCLUDES=
 
 # Add additional defines to the build process (without a leading -D).
-DEFINES=MTB_HAL_DISABLE_WEAK_FUNC_IMPL
+DEFINES=
 
 # Select softfp or hardfp floating point. Default is softfp.
 VFP_SELECT=
@@ -127,10 +127,6 @@ ASFLAGS=
 # Additional / custom linker flags.
 LDFLAGS=
 
-ifeq ($(TOOLCHAIN),GCC_ARM)
-LDFLAGS+=-Wl,--no-warn-rwx-segments
-endif
-
 # Additional / custom libraries to link in to the application.
 LDLIBS=
 
@@ -142,11 +138,6 @@ PREBUILD=
 
 # Custom post-build commands to run.
 POSTBUILD=
-
-# In CI, exclude syscall stubs that include sys/stat.h when toolchain headers differ.
-ifneq ($(strip $(CI)),)
-CY_IGNORE+=./syscalls.c
-endif
 
 
 ################################################################################
@@ -176,7 +167,7 @@ CY_GETLIBS_SHARED_NAME=mtb_shared
 # variable name for the toolchain used in your build.
 #
 # The default path depends on the selected TOOLCHAIN and is set in the Make recipe.
-# CY_COMPILER_GCC_ARM_DIR?=
+CY_COMPILER_GCC_ARM_DIR?=
 
 
 # Locate ModusToolbox helper tools folders in default installation
